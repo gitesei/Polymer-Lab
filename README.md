@@ -5,16 +5,12 @@
 In this computer lab, you will invetigate polymer mediated interactions between non-adsorbing (hard and inert) surfaces. Two main scenarios will be studied:
 
 ## A. Net interactions in a solution containing free (ungrafted) polymers.
-We will here limit ourselves to the case of theta solvents, and utilize the standard ideal polymer model, in which the monomers are point-like, i.e they do not interact with each other (but they are still excluded from the surfaces). Run calculations with various choices for the polymer length. Plot monomer density distributions at some chosen separations, and comment upon the results. Also compare the free energy, and net pressure curves that you obtain for different polymer lengths. Limit the degree of polymerization (_r_) to _3 < r < 1000_. Also limit the investigated separations (_h_) to _3 < h < 500_ (where we use the bond length as length unit). Also plot a few free energy curves, with various polymer lengths, but use radius of gyration, rather than bond length, on the _x_-axis. Discuss the results. Note that the the bulk monomer concentration is fixed (by the code). How would the free energy curves change if you had (say) doubled the bulk density? 
-0.  Specifically plot a free energy curve for 601-mers, and verify that you obtain the same results (with bond lengths on the _x_-axis) as in the "polydispersity comparison graph" that you have been given. Discuss and interpret these results, i.e. how and why the interactions differ when the solution contains polydisperse polymers.
-0.  Using the Derjaguin Approximation, the net force, _F_, between (large) spherical particles of radius R, can be etimated from the net free energy per unit area between flat surfaces, _\Delta g_S_, as _F = R\pi\Delta g_S_. How would you obtain the net interaction free energy, _W_, between such particles? If we neglect other (non polymer-mediated) interactions, make a qualitative comparison between the second virial coefficients (_B_{22}_) for particles in monodisperse and polydisperse polymer solutions. In other words, in which case would you expect a more attractive _B_{22}_?
+We will here limit ourselves to the case of theta solvents, and utilize the standard ideal polymer model, in which the monomers are point-like, i.e they do not interact with each other (but they are still excluded from the surfaces).<br> 
+Further instructions in `A/A.ipynb`.
+
 ## B. Interactions between polymer grafted surfaces.
-Also in this case, the polymers are assumed to be ideal. However, you will also receive results obtained with a good solvent, as modelled by hard-sphere monomers. 
-Use the same "_h_ and _r_" limitations as above (_3 < r < 1000_; _3 < h < 500_).<br>
-Plot density profiles, free energy curves, and pressure curves, for some chosen polymer lengths and grafting densities. Discuss the results.<br>
-Specifically plot a free energy curve for 100-mers, with a reduced grafting density of 0.1, and verify that you obtain the same results as in the "solvent comparison interaction free energy graph" that you have been given.<br>
-Also plot the density profile, at h = 100 (bond lengths) and compare with the provided "solvent comparison density profile graph".<br>
-Sketch, directly in that graph, how the density profile in a good solvent would look (roughly) had the surface grafting density been half as high. How would you expect that interaction free energy curve would change if the surface were attractive to the monomers?
+Also in this case, the polymers are assumed to be ideal. However, you will also receive results obtained with a good solvent, as modelled by hard-sphere monomers.<br> 
+Further instructions in `B/B.ipynb`.
  
 ### Prerequisites
 
