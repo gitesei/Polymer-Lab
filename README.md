@@ -12,7 +12,7 @@ Further instructions in `A/A.ipynb`.
 Also in this case, the polymers are assumed to be ideal. However, you will also receive results obtained with a good solvent, as modelled by hard-sphere monomers.<br> 
 Further instructions in `B/B.ipynb`.
 
-Author: Jan Forsman
+Author: Jan Forsman<br>
 E-mail: jan.forsman@teokem.lu.se
  
 ### Prerequisites
