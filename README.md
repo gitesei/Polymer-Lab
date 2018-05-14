@@ -27,12 +27,12 @@ If you have little experience with Python or shell programming, the following tw
 1. Install [miniconda3](https://conda.io/miniconda.html).
 2. [Download](https://github.com/mlund/particletracking/archive/master.zip) the lab material
    (this github repository) and unzip.
-3. Install and activate the `particletracking` environment described by the file [`environment.yml`](/environment.yml)
+3. Install and activate the `polymerlab` environment described by the file [`environment.yml`](/environment.yml)
    by running the following in a terminal:
 
    ```bash
    conda env create -f environment.yml
-   source activate particletracking
+   source activate polymerlab
    ```
 N.B. Not available for Windows. 
 
