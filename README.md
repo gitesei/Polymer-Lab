@@ -28,7 +28,7 @@ If you have little experience with Python or shell programming, the following tw
 ### Preparation before the lab
 
 1. Install [miniconda3](https://conda.io/miniconda.html).
-2. [Download](https://github.com/mlund/particletracking/archive/master.zip) the lab material
+2. [Download](https://github.com/gitesei/Polymer-Lab/archive/master.zip) the lab material
    (this github repository) and unzip.
 3. Install and activate the `polymerlab` environment described by the file [`environment.yml`](/environment.yml)
    by running the following in a terminal:
